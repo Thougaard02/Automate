@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Automate
 {
-    //Variation of sodas
+    //Enum variation of sodas
     public enum Flavours
     {
         CocaCola,
@@ -16,6 +16,7 @@ namespace Automate
     }
     class Soda
     {
+        //Properties
         private Flavours flavour;
 
         public Flavours Flavour

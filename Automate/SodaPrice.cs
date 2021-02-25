@@ -8,6 +8,7 @@ namespace Automate
 {
     class SodaPrice
     {
+        //Properties
         private double cocaCola;
 
         public double CocaCola

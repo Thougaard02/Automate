@@ -8,6 +8,7 @@ namespace Automate
 {
     class VendingMachine
     {
+        //Properties
         private Soda product;
 
         public Soda Product

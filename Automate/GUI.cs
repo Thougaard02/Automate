@@ -12,6 +12,7 @@ namespace Automate
 
         private void Menu()
         {
+            //Console menu
             Console.WriteLine("==================================================");
             Console.WriteLine();
             Console.WriteLine("               Select a soda you want             ");
@@ -21,10 +22,12 @@ namespace Automate
             Console.WriteLine("2. Fanta");
             Console.WriteLine("3. 7 Up");
             Console.WriteLine("4. Pepsi Max");
+            Console.WriteLine("5. Exit");
         }
 
         public void Machine()
         {
+            //Object of vendingmachine and the price of the sodas
             VendingMachine vendingMachine = new VendingMachine(5.99, 9.99, 15.98, 30.99);
 
             while (true)
